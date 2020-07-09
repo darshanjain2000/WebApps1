@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Armani Exchange Online Store | Clothing & Accessories for Men and Women</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/armani.css">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Lato-Bold&"> -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d2fb449a23.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="page">
+        <header>
+            <div class="wrapper">
+                <!-- MENU -->
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="#">NEW ARRIVALS</a>
+                    <a href="#">MEN</a>
+                    <a href="#">WOMEN</a>
+                    <a href="#">ICON PROJECT</a>
+                    <a href="#">OLIMPIA BASKET MILANO</a>
+                    <a href="#">TRENDS</a>
+                </div>
+
+                <div id="main">
+                    <span style="cursor:pointer" onclick="openNav()">
+                        <!-- &#9776; <br> MENU</span> -->
+                        <i class="fas fa-bars" style="padding-left: 30%;"></i><br>
+                        <span class="textForScreenReader">MENU</span>
+                    </span>
+
+                </div>
+
+                <script>
+                    function openNav() {
+                        document.getElementById("mySidenav").style.width = "250px";
+                        document.getElementById("main").style.marginLeft = "250px";
+                    }
+
+                    function closeNav() {
+                        document.getElementById("mySidenav").style.width = "0";
+                        document.getElementById("main").style.marginLeft = "0";
+                    }
+                </script>
+                <!-- menu
+                <div class="icon-menu">
+                    <button class="hamburger" aria-expanded="false">
+                        <i class="fas fa-bars"></i>
+                        <span class="text">MENU</span>
+                    </button>
+                </div> -->
+                <!-- ḷogo -->
+                <div class="logoBox">
+                    <h1>
+                        <img src="//www.armaniexchange.com/ytos/resources/ARMANIEXCHANGE/images/axlogo.svg" width="28%"
+                            height="30%" alt="Armani Exchange Online Store">
+                    </h1>
+                </div>
+                <!-- search -->
+                <div class="search">
+                    <button class="searchSection">
+                        <i class="fas fa-search"></i><br>
+                        <span class="textForScreenReader">Search</span>
+                    </button>
+                </div>
+            </div>
+        </header>
+    </div>
+    <!-- slider -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+
+            <div class="carousel-item active ">
+                <img class="d-block w-100"
+                    src="https://cdn3.yoox.biz/cloud/armaniexcwp/uploads/2019/10/Armani_Exchange_Hero_Viral-Socks.jpg"
+                    alt="socks">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 style="color:white;font-size:300%;">VIRAL SOCKS</h1>
+                    <h4><button id="sliderButton">WOMEN</button><button id="sliderButton">MEN</button></h4>
+                </div>
+            </div>
+            <div class="carousel-item" style="overflow: hidden;">
+                <video src="https://md.yoox.biz/618203721001/201910/2657/618203721001_6093194784001_6093192569001.mp4"
+                    id="video"></video>
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 style="color:white;font-size:300%;">ONLINE EXCLUSIVE: SNEAKERS</h1>
+                    <div class="hideText"></div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100"
+                    src="https://cdn3.yoox.biz/cloud/armaniexcwp/uploads/2019/10/Armani_Exchange_Hero_Edgy_Vibes.jpg"
+                    alt="iconHero">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 style="color:#FFFFFF;font-size:300%;">EDGY VIBES</h1>
+                    <h4><button id="sliderButton">WOMEN</button><button id="sliderButton">MEN</button></h4>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <!-- card -->
+    <div class="card-deck">
+        <div class="card">
+            <img class="card-img-top" id="cardImg1" src="https://www.armaniexchange.com/11/11773939na_10_r.jpg"
+                alt="first image">
+            <div class="card-body">
+                <h7 class="card-title"> <strong>SNEAKERS ONLINE EXCLUSIVE</strong> </h7>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" id="cardImg2" src="https://www.armaniexchange.com/11/11663085ds_12_r.jpg"
+                alt="Card image cap">
+            <div class="card-body">
+                <h7 class="card-title"> <strong> BASKETBALL SNEAKERS WITH CONTRAST LETTERING</strong></h7>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" id="cardImg3" src="https://www.armaniexchange.com/11/11773938nq_12_r.jpg"
+                alt="Card image cap">
+            <div class="card-body">
+                <h7 class="card-title"><strong>SNEAKERS</strong></h7>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" id="cardImg4" src="https://www.armaniexchange.com/11/11663069lv_11_d.jpg"
+                alt="Card image cap">
+            <div class="card-body">
+                <h7 class="card-title"><strong>HIGH-TOP SNEAKERS WITH CONTRAST LETTERING</strong></h7>
+            </div>
+        </div>
+    </div>
+    <!-- button -->
+    <div class="buttonMid">
+        <a href="https://www.armaniexchange.com/men/shoes" id="arB">
+            <div>
+                MEN
+            </div>
+        </a>
+        <a href="https://www.armaniexchange.com/women/shoes" id="arB">
+            <div>
+                WOMEN
+            </div>
+        </a>
+    </div>
+    <!-- div divide -->
+    <div class="container">
+        <div id="left">
+            <a href="https://www.armaniexchange.com/men/denim">
+                <div>
+                    <img src="https://www.armaniexchange.com/cloud/armaniexcwp/uploads/2019/10/Armani_Exchange_M_Macro.jpg"
+                        alt="denim men" width="580vw" height="533vw">
+                    <div class="iml">
+                        <h2>DENIM</h2>
+                        <p>SHOP NOW</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div id="right">
+            <a href="https://www.armaniexchange.com/women/tees">
+                <div>
+                    <img src="https://cdn3.yoox.biz/cloud/armaniexcwp/uploads/2019/10/Armani_Exchange_W_Macro.jpg"
+                        alt="tees women" width="580vw" height="533vw">
+                    <div class="iml">
+                        <h2>T-SHIRTS</h2>
+                        <p>SHOP NOW</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div>
+        <h2 class="headline" style="text-align: center"><strong>NEW</strong><strong> ARRIVALS</strong></h2>
+    </div>
+    <!--card-->
+    <div class="card-deck">
+        <div class="card">
+            <img class="card-img-top" id="cardImg1" src="https://www.armaniexchange.com/46/46665844lb_11_a.jpg"
+                alt="first image">
+            <div class="card-body">
+                <h7 class="card-title"> <strong>NEOPRENE SWEATSHIRT</strong> </h7>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" id="cardImg2" src="https://www.armaniexchange.com/46/46666733nd_11_f.jpg"
+                alt="Card image cap">
+            <div class="card-body">
+                <h7 class="card-title"> <strong> TWO-TONED TROUSER</strong></h7>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" id="cardImg3" src="https://www.armaniexchange.com/34/34992253wf_11_a.jpG"
+                alt="Card image cap">
+            <div class="card-body">
+                <h7 class="card-title"><strong>TWO-TONED JACKET</strong></h7>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" id="cardImg4" src="https://www.armaniexchange.com/34/34986368mq_11_d.jpg"
+                alt="Card image cap">
+            <div class="card-body">
+                <h7 class="card-title"><strong>FAUX LEATHER DRESS WITH PLATED SKIRT AND STUDS</strong></h7>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" id="cardImg4" src="https://www.armaniexchange.com/45/45481244cc_11_d.jpg"
+                alt="Card image cap">
+            <div class="card-body">
+                <h7 class="card-title"><strong>LOGO PLATED BACKPACK</strong></h7>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" id="cardImg4" src="https://www.armaniexchange.com/45/45480725vr_11_d.jpg"
+                alt="Card image cap">
+            <div class="card-body">
+                <h7 class="card-title"><strong>SHOULDER BAG WITH LOGO LETTERING</strong></h7>
+            </div>
+        </div>
+    </div>
+    <!-- button -->
+    <div class="buttonMid">
+        <a href="https://www.armaniexchange.com/wx/men/edgy-vibes" id="arB">
+            <div>
+                MEN
+            </div>
+        </a>
+        <a href="https://www.armaniexchange.com/wx/women/edgy-vibes" id="arB">
+            <div>
+                WOMEN
+            </div>
+        </a>
+    </div>
+    <!-- div divide -->
+    <div class="container">
+        <div id="left">
+            <a href="https://www.armaniexchange.com/men/denim">
+                <div>
+                    <img src="https://cdn3.yoox.biz/cloud/armaniexcwp/uploads/2019/10/Armani_Exchange_W_Icon.jpg"
+                        alt="denim men" width="580vw" height="533vw">
+                    <div class="iml">
+                        <h2 class="no">A|X ICON COLLECTION</h2>
+                        <p>SHOP NOW</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div id="right">
+            <a href="https://www.armaniexchange.com/women/tees">
+                <div>
+                    <img src="https://cdn3.yoox.biz/cloud/armaniexcwp/uploads/2019/10/Armani_Exchange_M_Socks.jpg"
+                        alt="tees women" width="580vw" height="533vw">
+                    <div class="iml">
+                        <h2 class="no">VIRAL SOCKS</h2>
+                        <p>SHOP NOW</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <!-- above footler -->
+    <div id="last">
+        <img alt="" src="https://cdn3.yoox.biz/cloud/armaniexcwp/uploads/2019/10/AX-Olimpia-1.jpg" width="1280vw"
+            height="394vw">
+        <div class="txt">
+            <h2 class="no">READY FOR BASKETBALL</h2>
+            <p>SHOP NOW</p>
+        </div>
+    </div>
+    <div id="backtop">
+        <div></div>
+            <a href="#"><img src="https://icon-library.net/images/back-to-top-icon-png/back-to-top-icon-png-8.jpg"
+                    alt="back to top" width="70vw" height="80vw" id="btop"></a>
+        </div>
+    </div>
+    <footer>
+        <h1 id="headLogo"><img
+                src="https://d1afx9quaogywf.cloudfront.net/sites/default/files/Logos/Instagram400x230.png"
+                alt="Instagram" width="70vw" height="50vw"><img
+                src="https://image.flaticon.com/icons/png/512/23/23931.png" alt="twitter" width="30vw" height="30vw">
+            <img src="https://image.flaticon.com/icons/png/512/59/59439.png" alt="facebook" width="30vw" height="30vw">
+            <img src="https://i.pinimg.com/originals/26/82/2a/26822ac70385b45405d0035b3c9521da.png" alt="pinterest"
+                width="30vw" height="30vw"> </h1>
+
+
+        <div class="foot">
+            <div id="fleft">
+                <h6>LOCATION REST OF THE WORLD</h6>
+
+                <h8><a href="https://www.armaniexchange.com/wx">Change Location</a></h8>
+            </div>
+            <div id="fcenter">
+                <a href="http://careers.armaniexchange.com">
+                    <h6>CAREERTS</h6>
+                </a>
+                <a href="https://www.armani.com/in/armanicom">
+                    <h6>ARMANI.COM</h6>
+                </a>
+                <a href="https://www.armaniexchange.com/wx/Help/LegalArea/PrivacyPolicy">
+                    <h6>PRIVACY POLICY</h6>
+                </a>
+            </div>
+            <div id="fright">
+                <a href="https://www.armaniexchange.com/wx/Help/LegalArea/UseTerms#info">
+                    <h6>CORPORATE INFORMATION</h6>
+                </a>
+            </div>
+        </div>
+        <div>
+            Powered by YOOX NET-A-PORTER GROUP - Copyright © 2019 Giorgio Armani S.p.A. - All Rights Reserved
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    </div>
+</body>
+
+</html>
