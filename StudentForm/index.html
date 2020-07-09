@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Student form</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="item.js"></script>
+    <script src="itemOperation.js"></script>
+    <script src="controller.js"></script>
+    </script>
+
+</head>
+
+<body>
+    <form action="#">
+        <div class='container'>
+            <h1 class='alert alert-danger text-center'>Student Form</h1>
+            <div class='form-group'>
+                <label for="">Roll NO.</label>
+                <input id='id' class='form-control' type="text" required autocomplete="on">
+            </div>
+            <div class='form-group'>
+                <label for="">Name</label>
+                <input id='name' class='form-control' placeholder='Type Name Here eg.darshan' type="text">
+            </div>
+            <div class='form-group'>
+                <label for="">Gender </label><br>
+                <input type="radio" name='gender' value='Male' id='gender'> Male
+                <input type="radio" name='gender' value="Female" id='gender'> Female<br>
+            </div>
+            <div class='form-group'>
+                <label for="">Date of Birth</label>
+                <input id='dob' class='form-control' type="date" required>
+            </div>
+            <div class='form-group'>
+                <label for="">Email ID</label>
+                <input id='email' class='form-control' placeholder="Please Enter your Email ID" type="email">
+            </div>
+            <div class='form-group'>
+                <label for="">Enter Your Phone Number</label><br>
+                <input type="text" pattern="[0-9]{10}" id='phone' placeholder="Please Enter Your Phone Number">
+                <!-- pattern for validation -->
+            </div>
+            <div class='form-group'>
+                <label for="">Branch</label><br>
+                <select id="branch" class='form-control'>
+                    <option value="CSE">CSE</option>
+                    <option value="ECE">ECE</option>
+                    <option value="CV">CV</option>
+                    <option value="ME">ME</option>
+                </select>
+            </div>
+            <div class='form-group'>
+                <label for="">Elective</label><br>
+                <input type="checkbox" id="elective">Web Development
+                <input type="checkbox" id="elective">UI/UX
+                <input type="checkbox" id="elective">JAVA
+                <input type="checkbox" id="elective">Android Development
+            </div>
+
+            <div class='form-group'>
+                <button id='add' class='btn btn-primary' onclick="">Add</button>
+            </div>
+    </form>
+    <table class='table table-bordered'>
+        <thead class='thead-dark'>
+            <tr>
+                <th>Roll no.</th>
+                <th>Student Name</th>
+                <th>Gender</th>
+                <th>Date of Birth</th>
+                <th>Email</th>
+                <th>Phone No.</th>
+                <th>Branch</th>
+                <th>Elective</th>
+            </tr>
+        </thead>
+        <tbody id='items'>
+
+        </tbody>
+    </table>
+    </div>
+</body>
+<!-- darshan -->
+
+</html>
