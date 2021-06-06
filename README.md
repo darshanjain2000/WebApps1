@@ -1,2 +1,4 @@
 # WebApps1
-WebApps using HTML,CSS,JavaScrip
+WebApps using HTML,CSS,JavaScript
+
+
